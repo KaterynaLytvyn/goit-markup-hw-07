@@ -1,0 +1,42 @@
+.specifity {
+    background-color: var(--primary-color);
+  }
+  
+  .specificity-list{
+    display: flex;
+  }
+  
+  .specifity-item{
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+
+    &:nth-child(4n) {
+      margin-right: 0px;
+    }
+  }
+  
+  .specificity-item-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .specificity-item-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  .specifity-item-icons {
+    width: 270px;
+    height: 120px;
+    background-color: var(--light-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
